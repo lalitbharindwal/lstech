@@ -1,0 +1,179 @@
+body{
+  background-color: rgb(0, 0, 0);
+  border-style:dashed;
+  border-color: red rgb(116, 190, 116) blue yellow;
+  border-radius: 2cm;
+  width: 25cm;
+  margin:auto;
+}
+
+
+#Name{
+  color: rgb(109, 193, 48);
+  text-align: center;
+  margin-bottom: 1cm;
+  margin-top: 1cm;
+  font-size: 1cm;
+  
+}
+
+#Contact{
+  color: blueviolet;
+}
+
+p{
+  color: red;
+  font-size: 5mm;
+}
+
+#Img{
+  text-align: right;
+}
+
+#contact{
+  margin-left: 2cm;
+  float: right;
+  width: 50%;
+}
+
+#Objective{
+  color: rgb(255, 95, 212);
+  text-align:center;
+  margin-top: 1cm;
+  border-style: solid;
+  border-radius: 3cm;
+  padding-top: 0.2cm;
+  padding-bottom: 0.2cm;
+  border-color: rgba(229, 44, 239, 0.992) rgb(116, 190, 116) rgb(131, 255, 181) yellow;
+  
+}
+
+#obj{
+  color: rgb(78, 202, 230);
+  margin-left: 2cm;
+  margin-right: 1.5cm;
+  margin-top: 0.3cm;
+  font-family: "Lucida Console", "Courier New", monospace;
+  
+}
+
+#Education{
+  color: rgb(19, 255, 220);
+  text-align:center;
+  margin-top: 1cm;
+  border-style: solid;
+  border-radius: 3cm;
+  padding-top: 0.2cm;
+  padding-bottom: 0.2cm;
+  border-color: rgb(30, 232, 101) rgb(225, 119, 52) rgb(181, 237, 69) rgb(92, 45, 186);
+  
+}
+
+#Edu{
+  color: rgb(203, 66, 148);
+  text-align: center;
+  margin-top: 0.3cm;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#Technicalskill{
+  color: rgb(255, 68, 127);
+  text-align:center;
+  margin-top: 1cm;
+  border-style: solid;
+  border-radius: 3cm;
+  padding-top: 0.2cm;
+  padding-bottom: 0.2cm;
+  border-color: rgb(119, 255, 14) rgb(116, 190, 116) rgb(255, 0, 153) yellow;
+}
+
+#Tskills{
+  color: rgb(214, 182, 67);
+  text-align: left;
+  margin-top: 0.3cm;
+  margin-left: 8.5cm;
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+
+#Interpersonalskill{
+  color: rgb(237, 255, 36);
+  text-align:center;
+  margin-top: 1cm;
+  border-style: solid;
+  border-radius: 3cm;
+  padding-top: 0.2cm;
+  padding-bottom: 0.2cm;
+  border-color: rgb(183, 38, 255) rgb(116, 190, 116) rgb(12, 255, 219) yellow;
+}
+#Iskills{
+  color: rgb(187, 68, 205);
+  text-align: left;
+  margin-top: 0.3cm;
+  margin-left: 9cm;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#Projects{
+  color: rgb(255, 168, 47);
+  text-align:center;
+  margin-top: 1cm;
+  border-style: solid;
+  border-radius: 3cm;
+  padding-top: 0.2cm;
+  padding-bottom: 0.2cm;
+  border-color: rgb(255, 23, 162) rgb(116, 190, 116) rgb(204, 254, 24) yellow;
+}
+
+#Project{
+  color: rgb(144, 78, 210);
+  text-align: left;
+  margin-top: 0.3cm;
+  margin-left: 5.5cm;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#Certificates{
+  color: rgb(251, 34, 255);
+  text-align:center;
+  margin-top: 1cm;
+  border-style: solid;
+  border-radius: 3cm;
+  padding-top: 0.2cm;
+  padding-bottom: 0.2cm;
+  border-color: rgb(38, 252, 56) rgb(116, 190, 116) rgb(208, 245, 97) yellow;
+}
+#Certificate{
+  color: rgb(227, 92, 133);
+  text-align: left;
+  margin-top: 0.3cm;
+  margin-left: 7.5cm;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+#PersonalDetails{
+  color: rgb(255, 36, 131);
+  text-align:center;
+  margin-top: 1cm;
+  border-style: solid;
+  border-radius: 3cm;
+  padding-top: 0.2cm;
+  padding-bottom: 0.2cm;
+  border-color: rgb(72, 227, 254) rgb(105, 249, 105) rgb(61, 240, 157) rgb(183, 183, 28);
+}
+
+#Personald{
+  color: rgb(92, 225, 227);
+  text-align: left;
+  margin-top: 0.3cm;
+  margin-left: 5cm;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+hr{
+  color: rgb(248, 242, 242);
+  width: 24.8cm;
+  margin-top: 1cm;
+
+}
