@@ -1,110 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Lalit Bharindwal Resume</title>
+  <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
+
 <body>
-    <h4 id="Name">LALIT BHARINDWAL</h4>
-    
-    <div id="contact">
-    <h4 id="Contact">CONTACT</h4>
-    <p>@lalitbharindwal@gmail.com<br>
-        +91 8796775539<br>
-        Opposite Bus Stand, Newasa-Shrirampur Road,<br>
-        A/p Takalibhan, Shrirampur, Ahmednagar.413725<br>
-        https://github.com/lalitbharindwal<br>
-        https://www.linkedin.com/in/lalit-bharindwal<br>
-        </p>
+  
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <i class="material-icons" style="font-size:45px;color:rgb(254, 254, 254);">cloud</i>
+        <a class="navbar-brand" href="#" id="logo">LS Tech</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html" id="home">Home</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Resume<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Certification</a></li>
+            <li><a href="resume.html">RESUME</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
     </div>
-    <div id= "Img" class="gallery">
-        <a target="_blank" href="assets/photo.jpg">
-          <img src="assets/photo.jpg" alt="Cinque Terre" width="150" height="200">
-        </a>
-    </div>
-    <hr>
-
-    <h4 id="Objective">OBJECTIVE</h4>
-    <p id="obj">
-        To be a part of team that dynamically works towards the growth, where my knowledge
-and skills can be used efficiently for the betterment of the organization and further
-develop my skills.
-    </p>
-
-    <h4 id="Education">EDUCATION</h4>
-    <p id="Edu">
-        Sanjivani College of engineering.Kopargaon<br>
-BE Computer Engineering<br>
-8.32 CGPA<br>
-<br>
-R.B.N.B College.Shrirampur<br>
-Higher Secondary Certification Examination<br>
-70.62%<br>
-<br>
-New English School.Takalibhan<br>
-Secondary School Certificate<br>
-86.40%<br>
-    </p>
-
-    <h4 id="Technicalskill">TECHNICAL SKILLS</h4>
-    <p id="Tskills">
-            C, C++<br>
-            Python3 Programming<br>
-            Object Oriented Programming<br>
-            Operating System<br>
-            Database Management System<br>
-            HTML and CSS<br>
-    </p>
-
-    <h4 id="Interpersonalskill">INTERPERSONAL SKILLS</h4>
-    <p id="Iskills">
+  </nav>
     
-            Problem Solving<br>
-            Decision Making<br>
-            Patience<br>
-            Leadership<br>
-            Dedication<br>
-            Time Management<br>   
-    </p>
 
-    <h4 id="Projects">PROJECTS</h4>
-    <p id="Project">
-        
-            E-commerce website with integration of chatbot<br>
-            Covid-19 Pandemic Analysis and Prediction<br>
-            Industry Type Identification based on Email Address<br>
-            Image Classification by support vecter machine<br>
-            Dedication<br>
-            Create Subjectlines of email using serverless<br>
-          
-    </p>
+  <div class="container-fluid" id="imga">
+    <img src="assets/photo.jpg" alt="Cinque Terre"  style="width: 3cm;border-radius: 50%;text-align: center;">
+  </div>
 
-    <h4 id="Certificates">CERTIFICATES</h4>
-    <p id="Certificate">
-            Python3 Specialization<br>
-            (Coursera)<br>
-            Crash Course on Python<br>
-            (by Google)<br>
-           Python 101 for Data Science<br>
-            (PY0101EN Provided by Cognitiveclass)<br>
-          Internship Completion on Data Science<br>
-            (By Smartknower)<br>
-            Introduction to HTML5<br>
-            (University of Michigan)<br>  
-    </p>
 
-    <h4 id="PersonalDetails">PERSONAL DETAILS</h4>
-    <p id="Personald">
-            Name : Lalit Subhash Bharindwal<br>
-            Date of Birth : 01/09/2000<br>
-            Nationality : Indian<br>
-            Hobbies : Coding, Travelling, Gaming<br>
-            Areas of Interest : Programming, Cloud Technology (AWS)<br>
-            Language known : English, Hindi, Marathi<br>       
-    </p>
+
+  <footer class="container-fluid text-center">
+    <div class="icons">
+      <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+      <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+      <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+      <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+      <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+    </div>
+    <p>Copyright 2022</p>
+  </footer>
+  
+
+
+
 </body>
 </html>
