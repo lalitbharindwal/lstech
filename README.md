@@ -1,2 +1,2 @@
 LINK :-
-https://lalitbharindwal.github.io/resume/
+https://lalitbharindwal.github.io/lstech/
