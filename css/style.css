@@ -11,20 +11,42 @@ body{
   margin-right: 0.7cm;
 }
 
+#logo:hover{
+    opacity: 0.5;
+}
+
+
+#material-icons{
+  margin-right: 0.7cm;
+  font-size:45px;color:rgb(254, 254, 254)
+}
+
+#material-icons:hover{
+  opacity: 0.5;
+}
+
 
 #home{
   color: rgb(243, 229, 229);
-  margin-left: 0.5cm;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: medium;
   background-color: rgb(0, 0, 0);
 }
 
+#home:hover{
+  opacity: 0.5;
+}
+
+
 #imga{
   text-align: center;
-  margin-top: 8cm;
-  margin-bottom: 8cm;
-  
+  margin-top: 7cm;
+  margin-bottom: 7cm;
+  opacity: 1
+}
+
+#imga:hover{
+  opacity: 0.5
 }
 
 
@@ -39,6 +61,32 @@ body{
   padding-top: 5px;
   transition: 0.3s ease;
 }
-.icons ion-icon:hover{
-  color: #d13434;
+
+#mail ion-icon:hover{
+  color: #dd4b39;
+}
+
+#wa ion-icon:hover{
+  color: #4dc247;
+}
+
+
+#github ion-icon:hover{
+  color: #073e21;
+}
+
+#linkedin ion-icon:hover{
+  color: #024569;
+}
+
+#insta ion-icon:hover{
+  color: #bc2a8d;
+}
+
+#fb ion-icon:hover{
+  color: #3b5998;
+}
+
+#twiter ion-icon:hover{
+  color: #00aced;
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>LS TECHNOLOGY</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -10,6 +10,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -17,16 +18,16 @@
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
-        <i class="material-icons" style="font-size:45px;color:rgb(254, 254, 254);">cloud</i>
+        <i class="material-icons" id="material-icons">cloud</i>
         <a class="navbar-brand" href="#" id="logo">LS Tech</a>
       </div>
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.html" id="home">Home</a></li>
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Resume<span class="caret"></span></a>
           <ul class="dropdown-menu">
+            <li><a href="resume.html">RESUME PDF</a></li>
             <li><a href="#">Education</a></li>
             <li><a href="#">Certification</a></li>
-            <li><a href="resume.html">RESUME</a></li>
           </ul>
         </li>
         <li><a href="#">Contact</a></li>
@@ -40,24 +41,22 @@
     
 
   <div class="container-fluid" id="imga">
-    <img src="assets/photo.jpg" alt="Cinque Terre"  style="width: 3cm;border-radius: 50%;text-align: center;">
+    <a href="assets/photo.jpeg">
+      <img src="assets/photo.jpeg" alt="Cinque Terre" class="image" style="border-radius: 50%;width: 3.5cm;">
+    </a>
   </div>
-
-
 
   <footer class="container-fluid text-center">
     <div class="icons">
-      <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-      <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-      <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-      <a href="#"><ion-icon name="logo-google"></ion-icon></a>
-      <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+      <a href="mailto:lalitbharindwal@gmail.com" id="mail"><ion-icon name="logo-google"></ion-icon></a>
+      <a href="http://Wa.me/918796775539" id="wa"><ion-icon name="logo-whatsapp"></ion-icon></a>
+      <a href="https://github.com/lalitbharindwal" id="github"><ion-icon name="logo-github"></ion-icon></a>
+      <a href="https://www.linkedin.com/in/lalit-bharindwal/" id="linkedin"><ion-icon name="logo-linkedin"></ion-icon></a>
+      <a href="https://www.instagram.com/lalits192/" id="insta"><ion-icon name="logo-instagram"></ion-icon></a>
+      <a href="https://www.facebook.com/lalit.bharindwal/" id="fb"><ion-icon name="logo-facebook"></ion-icon></a>
+      <a href="https://twitter.com/LalitBharindwal" id="twiter"><ion-icon name="logo-twitter"></ion-icon></a>
     </div>
-    <p>Copyright 2022</p>
+    <p style="color: white;margin-top: 1cm;">©Copyright 2022</p>
   </footer>
-  
-
-
-
 </body>
 </html>
