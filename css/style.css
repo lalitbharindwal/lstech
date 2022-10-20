@@ -1,5 +1,5 @@
 body{
-  background-color: rgba(16,15,21,255);
+  
   
 }
 
@@ -14,17 +14,6 @@ body{
 #logo:hover{
     opacity: 0.5;
 }
-
-
-#material-icons{
-  margin-right: 0.7cm;
-  font-size:45px;color:rgb(254, 254, 254)
-}
-
-#material-icons:hover{
-  opacity: 0.5;
-}
-
 
 #home{
   color: rgb(243, 229, 229);

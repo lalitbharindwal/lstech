@@ -1,0 +1,101 @@
+body{
+    
+  }
+  
+#logo{
+      color: rgb(225, 252, 255);
+      font-family: Copperplate, Papyrus, fantasy;
+      font-weight: bold;
+      background: linear-gradient(to top, rgba(218, 10, 10, 0.5)30%,rgba(0,0,0,0.5)50%);
+      margin-right: 0.7cm;
+    }
+    
+#logo:hover{
+        opacity: 0.5;
+    }
+
+#home{
+      color: rgb(243, 229, 229);
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: medium;
+      background-color: rgb(0, 0, 0);
+    }
+    
+#home:hover{
+      opacity: 0.5;
+    }
+   
+
+.icons a{
+      text-decoration: none;
+      color: #fff;
+    }
+
+.icons ion-icon{
+      color: rgb(255, 255, 255);
+      font-size: 20px;
+      padding-left: 14px;
+      padding-top: 5px;
+      transition: 0.3s ease;
+    }
+    
+#mail ion-icon:hover{
+      color: #dd4b39;
+    }
+    
+#wa ion-icon:hover{
+      color: #4dc247;
+    }
+
+#github ion-icon:hover{
+      color: #073e21;
+    }
+    
+#linkedin ion-icon:hover{
+      color: #024569;
+    }
+    
+#insta ion-icon:hover{
+      color: #bc2a8d;
+    }
+    
+#fb ion-icon:hover{
+      color: #3b5998;
+    }
+    
+#twiter ion-icon:hover{
+      color: #00aced;
+    } 
+
+#title{
+  text-align: center;
+  font-size: 0.7cm;
+  font-family:serif;
+  color: white;
+  opacity: 0.8;
+}
+
+#pdf{
+  text-align: center;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  opacity: 0.8;
+}
+
+#btn{
+  opacity: 0.7;
+  background: none;
+  border-color: #024569;
+  border-radius: 2cm;
+  padding: 4px;
+  padding-left: 0.5cm;
+  padding-right: 0.5cm;
+  color: white;
+}
+
+
+
+#btn:hover{
+  background-color: #024569;
+}

@@ -1,8 +1,8 @@
 body{
-  background-color: rgba(0, 0, 0, 0.847);
-
+  background: none;
 }
-  #logo{
+
+#logo{
     color: rgb(225, 252, 255);
     font-family: Copperplate, Papyrus, fantasy;
     font-weight: bold;
@@ -10,50 +10,38 @@ body{
     margin-right: 0.7cm;
   }
   
-  #logo:hover{
+#logo:hover{
       opacity: 0.5;
   }
-  
-  
-  #material-icons{
-    margin-right: 0.7cm;
-    font-size:45px;color:rgb(254, 254, 254)
-  }
-  
-  #material-icons:hover{
-    opacity: 0.5;
-  }
-  
-  
-  #home{
+
+#home{
     color: rgb(243, 229, 229);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
     background-color: rgb(0, 0, 0);
   }
   
-  #home:hover{
+#home:hover{
     opacity: 0.5;
   }
   
-  
-  #imga{
+
+#imga{
     text-align: center;
     margin-top: 7cm;
     margin-bottom: 7cm;
     opacity: 1
   }
   
-  #imga:hover{
+#imga:hover{
     opacity: 0.5
   }
-  
-  
-  .icons a{
+
+.icons a{
     text-decoration: none;
     color: #fff;
   }
-  .icons ion-icon{
+.icons ion-icon{
     color: rgb(255, 255, 255);
     font-size: 20px;
     padding-left: 14px;
@@ -61,82 +49,96 @@ body{
     transition: 0.3s ease;
   }
   
-  #mail ion-icon:hover{
+#mail ion-icon:hover{
     color: #dd4b39;
   }
   
-  #wa ion-icon:hover{
+#wa ion-icon:hover{
     color: #4dc247;
   }
   
   
-  #github ion-icon:hover{
+#github ion-icon:hover{
     color: #073e21;
   }
   
-  #linkedin ion-icon:hover{
+#linkedin ion-icon:hover{
     color: #024569;
   }
   
-  #insta ion-icon:hover{
+#insta ion-icon:hover{
     color: #bc2a8d;
   }
   
-  #fb ion-icon:hover{
+#fb ion-icon:hover{
     color: #3b5998;
   }
   
-  #twiter ion-icon:hover{
+#twiter ion-icon:hover{
     color: #00aced;
   }
 
 
 .container{
-    text-align: center;
-    border-style: solid;
-    border-color: #ff00c4 greenyellow blueviolet peru;
-    border-radius: 1cm;
-    padding-top: 1cm;
-    padding-bottom: 2cm;
-    background-color: rgba(19, 19, 19, 0.812)  
+  text-align: center;
+  color: white;
 }
 
 #obj{
-    color: red;
-    background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
     font-family: sans-serif;
     letter-spacing: 5px;
     font-weight: 600;
     word-spacing: 5px;
+    text-align: center;
+}
+#temp{
+  border-style: solid;
+    border-color: #ff00c4 greenyellow blueviolet peru;
+    border-radius: 1cm;
+    padding-top: 1cm;
+    padding-bottom: 2cm;
+    background-color: rgba(19, 19, 19, 0.812);
+  border-color: #ff00c4 greenyellow blueviolet peru;
+
+
+  background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-size: large;
 }
 
-p{ 
-    background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
-    font-family:Arial, Helvetica, sans-serif;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    text-align: center;
+#objp{
+  text-align: center;
 }
+
+
 
 #pic:hover{
     opacity: 0.5;
-
 }
 
-  #heading{
-    background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+#heading{
     text-align: center;
     color: #ffffff;
     font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;   
   }
 
-hr{
-    background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+
+#leftbar{
+ border-style: solid;
+ text-align: center;
+ padding-top: 1cm;
+ padding-bottom: 3.4cm;
+ background-color: #01455e;
+ color: white;
+ margin: fixed;  
+background-size: cover
 }
+
+
+#rightbar{
+  border-style: solid;
+  text-align: center;
+ }
+
